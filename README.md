@@ -6,4 +6,4 @@ The script requires a width, height, and DPI value, as well as an input and outp
 
 Example usage:
 
-'python3 ADSVGFix.python 30.48 128.5 96 InputFile.svg OutputFile.svg'
+`python3 ADSVGFix.python 30.48 128.5 96 InputFile.svg OutputFile.svg`
