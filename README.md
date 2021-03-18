@@ -7,7 +7,7 @@ The script requires a width, height, and DPI value, as well as an input and outp
 Example usage:
 
 ```Shell
-python3 ADSVGFix.python 30.48 128.5 96 InputFile.svg OutputFile.svg
+python3 ADSVGFix.py 30.48 128.5 96 InputFile.svg OutputFile.svg
 ```
 
 Example shell script for processing multiple files:
@@ -16,7 +16,7 @@ Example shell script for processing multiple files:
 #!/bin/sh
 # chmod 755 process.sh
 # command + path to script
-fix="python3 ../../ADSVGFix/ADSVGFix.python"
+fix="python3 ../../ADSVGFix/ADSVGFix.py"
 
 # input parameter array
 pa[0]="30.48 128.5 96 ./FaderProcessor-Dark.svg ../res/FaderProcessor-Dark.svg"
